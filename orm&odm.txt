@@ -1,0 +1,10 @@
+
+// ORM -> obj relational mapping
+
+- It act like bridge betn OOPS & SQL
+- It is a layer that connect the OOP to relational databases
+- For our proj -> use -> sequelize ORM
+- moongose -> ORM for mongo
+
+// npm i sequelize
+// npm i mysql2 -> its driver
