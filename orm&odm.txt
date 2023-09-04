@@ -8,3 +8,6 @@
 
 // npm i sequelize
 // npm i mysql2 -> its driver
+
+// ODM -> for Nosql db ->mongo
+
