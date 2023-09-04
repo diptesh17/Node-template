@@ -36,10 +36,39 @@ This is a base node js project template , which anyone can use as it has been pr
     PORT = < port_number>
 ```
 
-Ex . `    PORT = 3000;
-   `
+Ex . `   PORT = 3000;
+  `
 
 // After sequelize
 in config -> config.json
 It has 3 environment
 development , test , production
+
+// create your own src/config -> config.json file
+
+```
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
+
+```
